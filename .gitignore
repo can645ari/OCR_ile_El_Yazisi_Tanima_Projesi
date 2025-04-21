@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.env
+
+# PaddleOCR ve modeller
+*.tar
+*.zip
+*.pdmodel
+*.pdiparams
+.paddleocr/
+*.inference/
+*.onnx
+output/
+inference_results/
+
+# Streamlit cache
+.streamlit/
+
+# OS/mac/win gereksiz dosyalar
+.DS_Store
+Thumbs.db
