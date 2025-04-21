@@ -1,0 +1,23 @@
+# Core
+numpy
+pandas
+matplotlib
+opencv-python
+Pillow
+
+# OCR Engines
+paddleocr
+easyocr
+pytesseract
+
+# Web arayüz ve API
+streamlit
+fastapi
+uvicorn
+
+# Yardımcılar
+scikit-learn
+requests
+
+# Test
+pytest
