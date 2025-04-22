@@ -11,6 +11,8 @@ class OCREngine:
     def extract_text_lines(self, ocr_result):
         lines = []
         for line in ocr_result[0]:
-            text = line[1][0]  # sadece metin kısmını alıyoruz
-            lines.append(text)
+            text = line[1][0]         # tanınan metin
+            score = line[1][1]        # confidence skoru
+            lines.append((text, score))
         return lines
+
